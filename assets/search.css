@@ -1,0 +1,37 @@
+.form-control{
+	border: none;
+	outline: none;
+	background: transparent;
+	padding: 0px;
+}
+
+.rent, .rent-btn{
+	padding: 10px 15px;
+}
+
+
+.form-control:focus{
+	 outline: none !important;
+     box-shadow: none;
+     background: transparent;
+}
+.rent:hover{
+	background-color: rgba(224, 224, 224, 0.801);
+    padding: 10px 15px;
+    border-radius: 40px;
+
+}
+.form-label {
+    margin-bottom: 0rem !important; 
+}
+.container{
+   margin-top: 1px;
+
+}
+.container h1{
+    font-size: 4vw;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding-top: 22%;
+}

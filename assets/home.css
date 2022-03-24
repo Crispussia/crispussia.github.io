@@ -1,0 +1,35 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.background_img{
+	position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500); 
+    background-size: cover;
+}
+
+.container-contenu{
+    text-align: center;
+    position: relative; 
+    top: -50px;
+}
+.container-contenu h1{
+    font-size: 4vw;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding-top: 22%;
+}
+
+.container-contenu p:nth-child(2){
+    color: #ffff;
+    font-size: 1.2em;
+}
+    
